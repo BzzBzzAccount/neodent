@@ -1,0 +1,29 @@
+
+.invisibiliti{
+    margin-bottom: 3px;
+}
+.table-container {
+    margin-top: 100px;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+th{
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    background-color: #c1c74c;
+    font-weight: 100;
+    line-height: 15px;
+    letter-spacing: 2px;
+    padding: 4px;
+}
+td{
+    border-bottom: 1px solid #000;
+}
+tr:hover{
+    cursor: default;
+    background-color: rgba(193, 199, 76, 0.589);
+}

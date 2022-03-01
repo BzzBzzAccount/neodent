@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/test.css">
+    <link rel="stylesheet" href="../style/dropdown.css">
+    <link rel="stylesheet" href="../style/mounth_table.css">
+    <title>Test</title>
+</head>
+<body>
+    <div class="dropdown">
+        <button onclick="dropFunc()" class="btn-drop">Select month</button>
+        <div id="myDrop" class="drop-menu">
+            <a class="menu" href="#">January</a>
+            <a class="menu" href="#">February</a>
+        </div>
+    </div>
+    <div class="table_title"></div>
+    <div class="table-container">
+        <table class="table">
+            <thead class="thead">
+                <tr>
+                    <th scope="row" colspan="4" class="table_header_title">TEST</th>
+                </tr>
+                <tr>
+                    <th class="table_header">Day</th>
+                    <th class="table_header">Entrance & Exit</th>
+                    <th class="table_header">Hours of work</th>
+                    <th class="table_header">Salary per day</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr>
+                    <td>01.02 Tue</td>
+                    <td>00:00-00:00</td>
+                    <td>0 Hours</td>
+                    <td class="sum">2 zl</td>
+                </tr>
+                <tr>
+                    <td>22.02 Tue</td>
+                    <td>00:00-00:00</td>
+                    <td>0 Hours</td>
+                    <td class="sum">4 zl</td>
+                </tr>
+                <tr>
+                    <td>23.02 Wed</td>
+                    <td>00:00-00:00</td>
+                    <td>0.75 Hours</td>
+                    <td class="sum">6 zl</td>
+                </tr>
+                <tr>
+                    <td>24.02 Thu</td>
+                    <td>00:00-00:00/td>
+                    <td>0 Hours</td>
+                    <td class="sum">10 zl</td>
+                </tr>
+                <tr>
+                    <td>25.02 Fri</td>
+                    <td>00:00-00:00</td>
+                    <td>0 Hours</td>
+                    <td class="sum">16 zl</td>
+                </tr>
+                <tr>
+                    <td>26.02 Sat</td>
+                    <td>00:00-00:00</td>
+                    <td> Hours</td>
+                    <td class="sum">26 zl</td>
+                </tr>
+                <tr>
+                    <td>28.02 Mon</td>
+                    <td>00:00-00:00</td>
+                    <td> Hours</td>
+                    <td class="sum">42 zl</td>
+                </tr>
+            </tbody>
+            <tfoot class="tfoot">
+                <tr>
+                    <td colspan="2" class="foot_span">Total</td>
+                    <td>0 Hours</td>
+                    <td class="total-sum">0 zl</td>
+                </tr>
+            </tfoot>
+        </table>
+        <div class="calc-container">
+            <button class="calculate">Calculate</button>
+        </div>
+    </div>
+</div>
+    <script src="../script/test.js"></script>
+    <script src="../script/sliderScript.js"></script>
+</body>
+</html>
